@@ -9,18 +9,37 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<nav>
-		<ul>
-			<li>Home</li>
-			<li>about us</li>
-			<li>Services</li>
-		</ul>
-	</nav>
+	<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Accessible Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-	<div>
-		<h1>We are Web Developers</h1>
-	</div>
-	<img src="a1.jpg" alt="photo">
+    <h1 role="heading">Vishal Srivastava Portfolio</h1>
+
+    <nav role="navigation">
+        <ul role="list">
+            <li role="listitem"><a href="#about">About</a></li>
+            <li role="listitem"><a href="#projects">Projects</a></li>
+            <li role="listitem"><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <img role="img" src="profile.jpg" alt="Profile picture of Vishal Srivastava">
+
+        <p>
+            Hello! I am Vishal, a frontend developer learning full stack development.
+            I create responsive and user-friendly web applications.
+        </p>
+    </section>
+
+</body>
+</html>
 	
     <script type="text/javascript" src="./script.js">
 </script>
